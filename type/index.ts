@@ -18,3 +18,6 @@ const person: {
 
 // string型
 const fruit: string[] = ['Apple', 'Banana', 'Grape'];
+
+// タプル型
+const book: [string, number, boolean] = ['biziness', 2000, true];
