@@ -13,3 +13,8 @@ const person: {
     name: 'Jack',
     age: 21
 }
+
+// 配列に型をつける
+
+// string型
+const fruit: string[] = ['Apple', 'Banana', 'Grape'];
