@@ -58,3 +58,7 @@ let unionTypeList: (number | string)[] = [100, 'str1', 'str2'];
 // 決められた値しか代入できない
 const apple: 'apple' = 'apple'
 let clothSize: 'small' | 'medium' | 'large' = 'large'
+
+// typeを使ってオリジナルの型を定義する
+type drinkSize = 'small' | 'midium' | 'large';
+let coleSize: drinkSize = 'small';
