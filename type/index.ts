@@ -53,3 +53,8 @@ let unionType: number | string = 10;
 unionType = 'string';
 
 let unionTypeList: (number | string)[] = [100, 'str1', 'str2'];
+
+// literal型
+// 決められた値しか代入できない
+const apple: 'apple' = 'apple'
+let clothSize: 'small' | 'medium' | 'large' = 'large'
