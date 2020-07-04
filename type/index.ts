@@ -15,7 +15,6 @@ const person: {
 }
 
 // 配列に型をつける
-
 // string型
 const fruit: string[] = ['Apple', 'Banana', 'Grape'];
 
@@ -62,3 +61,5 @@ let clothSize: 'small' | 'medium' | 'large' = 'large'
 // typeを使ってオリジナルの型を定義する
 type drinkSize = 'small' | 'midium' | 'large';
 let coleSize: drinkSize = 'small';
+// 複数の型
+const antArray: any[] = [200, 'test1', true];
