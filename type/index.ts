@@ -38,3 +38,12 @@ const coffie = {
 coffie.size = CoffeeSize.VENTI;
 
 console.log(coffie);
+
+// any型 なんでも入る
+let anything: any = true;
+anything = 'hello';
+anything = ['hello', 'ts'];
+
+let tmp: string = 'tmp';
+// string型にも再代入できる
+tmp = anything;
