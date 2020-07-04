@@ -21,3 +21,20 @@ const fruit: string[] = ['Apple', 'Banana', 'Grape'];
 
 // タプル型
 const book: [string, number, boolean] = ['biziness', 2000, true];
+
+// 列挙型
+enum CoffeeSize {
+    SHORT = 'SHORT',
+    TALL = 'TALL',
+    GRANDE = 'GRANDE',
+    VENTI = 'VENTI'
+}
+
+const coffie = {
+    hot: true,
+    size: CoffeeSize.TALL
+}
+
+coffie.size = CoffeeSize.VENTI;
+
+console.log(coffie);
