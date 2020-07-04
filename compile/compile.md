@@ -47,3 +47,12 @@ tsc -w
 ```
 
 なお、`include`、 `exclude`の両方を定義した場合は`exclude`の方が強い
+
+## ブラウザでTSを確認する方法
+`tsconfig.json`の以下コメントアウトを外す
+```
+"sourceMap": true
+```
+sourceMapを使用することによって
+ブラウザのデベロッパーツールでTSファイルが生成され
+確認できる。
