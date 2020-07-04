@@ -47,3 +47,9 @@ anything = ['hello', 'ts'];
 let tmp: string = 'tmp';
 // string型にも再代入できる
 tmp = anything;
+
+// union
+let unionType: number | string = 10;
+unionType = 'string';
+
+let unionTypeList: (number | string)[] = [100, 'str1', 'str2'];
