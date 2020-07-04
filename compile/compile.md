@@ -18,3 +18,32 @@ tsc
 ```
 tsc -w
 ```
+
+## コンパイルしないファイルを設定する
+`tsconfig.json`に以下を追加する
+```
+  "exclude": [
+    "sample.ts",
+    "*.spec.ts"
+  ]
+```
+どのフォルダにあってもコンパイルさせたくない場合は
+`**`をつける
+```
+  "exclude": [
+    "**/sample.ts",
+    "*.spec.ts"
+  ]
+```
+
+よく使われるのは`node_modules`を省く
+
+## 特定のファイルだけコンパイルさせたい場合
+`tsconfig.json`に以下を追加する
+```
+ "include": [
+     ファイル名
+ ]
+```
+
+なお、`include`、 `exclude`の両方を定義した場合は`exclude`の方が強い
