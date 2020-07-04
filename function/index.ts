@@ -5,3 +5,8 @@ function add(num1: number, num2: number): number {
 }
 
 let calc = add(200, 100);
+
+// void
+function sayHello(): void {
+    console.log('Hello');
+}
